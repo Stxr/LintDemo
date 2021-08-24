@@ -3,7 +3,7 @@ package com.example.lintdemo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.example.lintaar.Test;
+//import com.example.lintaar.Test;
 import com.example.lintdemo.view.TestView;
 
 public class TwoActivity extends AppCompatActivity {

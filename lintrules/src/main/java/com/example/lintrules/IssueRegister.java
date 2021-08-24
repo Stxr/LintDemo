@@ -26,14 +26,14 @@ public class IssueRegister extends IssueRegistry {
     public List<Issue> getIssues() {
         return Arrays.asList(
                 SampleCodeDetector.ISSUE,
-                /*TestOneDetector.ISSUE,
+                TestOneDetector.ISSUE,
                 ReferenceDetector.ISSUE,
                 FiledDetector.ISSUE,
-                ToastUtilsDetector.ISSUE,*/
+                ToastUtilsDetector.ISSUE,
                 ClassDetector.ISSUE,
                 LayoutDetector.ISSUE,
-                LocalFiledDetector.ISSUE
-                // FindViewDetector.ISSUE
+                LocalFiledDetector.ISSUE,
+                FindViewDetector.ISSUE
         );
     }
 }

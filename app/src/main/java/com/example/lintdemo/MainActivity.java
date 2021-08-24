@@ -11,7 +11,6 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.lintaar.Test;
 import com.example.lintdemo.view.TestView;
 import com.example.lintdemo.view.ViewTest;
 
