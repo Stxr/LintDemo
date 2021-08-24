@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TestView testView;
     private TestView testView2;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -67,7 +66,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void showText() {
-        LintTestBean lintTestBean = new LintTestBean("lint", "lint");
+        LintTestBean lintTestBean = new LintTestBean("lint123", "lint");
         tvShow.setText(lintTestBean.name + "\n" +
                 lintTestBean.age + "\n");
 

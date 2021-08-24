@@ -80,7 +80,7 @@ public class SampleCodeDetector extends Detector implements UastScanner {
                     return;
                 }
 
-                if (string.contains("lint") && string.matches(".*\\blint\\b.*")) {
+                if (string.contains("lint") && string.matches(".*\\blint123\\b.*")) {
                     context.report(ISSUE, expression, context.getLocation(expression),
                             "检测到了字符串中带有lint");
                 }
